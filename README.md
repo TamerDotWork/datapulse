@@ -1,174 +1,93 @@
-
-
 <div align="center">
-  <img src="https://github.com/TamerDotWork/datapulse/blob/main/cover.jpg" alt="DataPulse  Demo" width="auto" style="border-radius: 16px;">
+  <img src="https://github.com/TamerDotWork/datapulse/blob/main/cover.jpg" alt="DataPulse Demo" width="auto" style="border-radius: 16px;">
 </div>
+
 <div align="center">
 
 # DataPulse
 
-### Agentic data intelligence using LangChain & Pandas for dataset cleaning, governance, and quality analysis
+### Automated clustering & pattern discovery using FastAPI, Pandas, and Scikit-Learn
 
 <br/>
-
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github.com/TamerDotWork/datapulse/blob/main/screenshot.jpg" alt="DataPulse  Demo" width="auto" style="border-radius: 16px;">
+  <img src="https://github.com/TamerDotWork/datapulse/blob/main/screenshot.jpg" alt="DataPulse UI" width="auto" style="border-radius: 16px;">
 </div>
 
 <br>
 
 > [!TIP]
-> DataPulse transforms raw messy datasets into governed, analysis-ready data using only simple steps.
+> DataPulse automatically discovers hidden patterns in your datasets by selecting the optimal number of clusters — no tuning required.
 
 ---
 
-## DataPulse  Overview
+## DataPulse Overview
 
-DataPulse  is an autonomous agentic data analyst built with:
+**DataPulse** is an automated data intelligence service that transforms raw tabular datasets into **clustered, insight-ready data** through a simple two-step workflow.
 
-- LangChain agent orchestration  
-- Pandas DataFrame Agent  
-- Python execution tool  
-- Dataset governance layer  
-- Quality measurement engine  
+Built with:
 
-It performs real operations on real data:  
-load → clean → analyze → validate → score → explain
+- FastAPI backend  
+- Pandas data processing  
+- Scikit-Learn clustering  
+- Automatic preprocessing & scaling  
+- Persisted ML artifacts  
 
-**Key Capabilities**
+**Execution flow:**
 
-- True Pandas execution  
-- Automated cleaning workflows  
-- Measurable quality scoring  
-- Explainable transformations  
-- Reproducible lineage
+**upload → preprocess → auto-train → evaluate → cluster → export**
+
+---
+
+## Key Capabilities
+
+- Automatic cluster detection (Silhouette Score)
+- Zero-configuration KMeans training
+- Smart numeric feature selection
+- Reusable trained models
+- CSV export with `Cluster_ID`
+- Clean web interface (Train → Predict)
 
 ---
 
 ## Use Cases
 
-- Automated data cleaning  
-- Dataset quality governance  
-- Exploratory analysis  
-- Pre-ML preparation  
-- BI readiness
+- Customer & user segmentation  
+- Pattern discovery in datasets  
+- Exploratory data analysis  
+- Pre-ML data structuring  
+- BI & reporting preparation  
 
 ---
 
 ## Quick Start
 
-**Prerequisites**
+### Prerequisites
 
 - Python 3.10+  
-- LLM provider key
+- pip / virtual environment  
+
+---
 
 ### Installation
 
 ```bash
-# download source code and access directory
+# Clone repository
 git clone https://github.com/TamerDotWork/datapulse
 cd datapulse
 
-# create virtual environment
+# Create virtual environment
 python -m venv venv
 
-# activation
-source venv/bin/activate
+# Activate environment
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
-# install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# run Data Pulse 
+# Run DataPulse
 python app.py
-
-```
-### First Run
-
-```bash
-# copy template
-cp .env.example .env
-# edit env
-GOOGLE_AoPI_KEY=your_google_api_key_here
-
-```
-
-> [!NOTE]
-> Results are stored in full logs.
-
----
-
-## Features
-
-### Agentic Data Tools
-- Pandas runtime execution  
-- Safe Python sandbox  
-- Profiling engine  
-- Rule validation  
-- Audit logs
-
-### Quality Detection
-- Missing values  
-- Duplicates  
-- Type conflicts  
-- Outliers  
-- Schema drift  
-- Inconsistent categories
-
-### Multi-Agent Flow
-- Planner → strategy  
-- Pandas → execution  
-- Validator → quality  
-- Reporter → insights
-
-
----
-
-Recommended models:
-
-- OpenAI GPT-4o  
-- Claude Sonnet  
-- Gemini Pro  
-- Local Llama 3
-
----
-
-## Documentation
-
-See the documentation website for full guides.
-
----
-
-## Support
-
-Give us a star on GitHub if Data Pulse  helps you.
-
----
-
-## Acknowledgements
-
-Built with:
-
-- LangChain  
-- Pandas  
-- Gemeni  
-
-## Live Demo
-
-Live testing link on Render:
-
-[https://datapulse-y3bz.onrender.com/](https://datapulse-y3bz.onrender.com/)
-
-> [!WARNING]
-> Always review AI-applied transformations before production use.
-
-</div>
-<p align="center">
-  <a href="https://tamer.work">
-    <img src="https://github.com/TamerDotWork/datapulse/blob/main/logo.jpg" alt="Data Pulse  Banner" width="auto" style="border-radius: 56px;">
-  </a>
-</p>
