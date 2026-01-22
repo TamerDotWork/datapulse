@@ -93,6 +93,32 @@ pip install -r requirements.txt
 python app.py
 
 ```
+
+
+## Documentation
+
+See the documentation website for full guides, setup instructions, and API usage.
+
+---
+
+## Support
+
+If **DataPulse** helps you, please give the repository a ⭐ on GitHub.  
+Your support helps improve and maintain the project.
+
+---
+
+## Acknowledgements
+
+Built with:
+
+- FastAPI  
+- Pandas  
+- NumPy  
+- Scikit-Learn  
+- Jinja2  
+
+
 <p align="center">
   <a href="https://tamer.work">
     <img src="https://github.com/TamerDotWork/datapulse/blob/main/logo.jpg" alt="Vesper Banner" width="auto" style="border-radius: 56px;">
