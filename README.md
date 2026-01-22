@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/TamerDotWork/datapulse/blob/main/cover.jpg" alt="DataPulse Demo" width="auto" style="border-radius: 16px;">
+  <img src="https://github.com/TamerDotWork/datapulse/blob/main/screenshot.jpg" alt="DataPulse Demo" width="auto" style="border-radius: 16px;">
 </div>
 
 <div align="center">
@@ -15,7 +15,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github.com/TamerDotWork/datapulse/blob/main/screenshot.jpg" alt="DataPulse UI" width="auto" style="border-radius: 16px;">
+  <img src="https://github.com/TamerDotWork/datapulse/blob/main/cover.jpg" alt="DataPulse UI" width="auto" style="border-radius: 16px;">
 </div>
 
 <br>
